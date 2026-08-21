@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience | Yonge Li</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-brand" href="index.html">Portfolio</a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+    <div class="nav-links">
+      <a href="index.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="experience.html" class="active">Experience</a>
+      <a href="contact.html">Contact</a>
+      <a href="resume.pdf" class="resume-btn" target="_blank">Resume</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <section class="page-section">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="card">
+      <h3>AI Student Researcher</h3>
+      <div class="org">COMPtech AB, Jönköping, Sweden</div>
+      <div class="year">Oct 2025 – Jun 2026</div>
+      <p>
+        Built a PonyGE2-based symbolic regression system for multi-property prediction
+        of aluminium alloys, from custom BNF grammar design through to evaluation on
+        a proprietary 313-sample industrial dataset.
+      </p>
+      <p>
+        Developed physics-informed fitness functions encoding Labusch solid-solution
+        strengthening and Hall–Petch grain-size effects, producing interpretable
+        closed-form equations via a GE + Ridge hybrid approach. Conducted 30-seed
+        ablation studies with 5-fold cross-validation, benchmarking against five
+        baseline methods including OLS, Ridge, Random Forest, and XGBoost.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>AI Research Intern</h3>
+      <div class="org">Arfve / layr, Sweden</div>
+      <div class="year">Jun – Aug 2025</div>
+      <p>
+        Designed the system architecture for a context-aware multimodal AI assistant
+        for wearable devices, featuring a three-tier edge AI processing framework
+        (sensor fusion, adaptive intent prediction, proactive action orchestration)
+        with local-first, privacy-preserving interaction.
+      </p>
+      <p>
+        Developed a tiered privacy architecture isolating biometric data in hardware
+        security enclaves, with federated learning at the edge and consent-based
+        cloud fallback. Engineered multi-layer redundancy mechanisms with automatic
+        failure detection across sensor, processing, and interaction layers.
+        Defined application scenarios for healthcare, education, and accessibility domains.
+      </p>
+    </div>
+    
+    <div class="card">
+      <h3>After-Sales Technical Manager</h3>
+      <div class="org">She Hong Industrial / Hartford CNC, Shanghai</div>
+      <div class="year">2007 – 2023</div>
+      <p>
+        Managed after-sales technical support operations for CNC machine-tool systems
+        (servo drives, spindle units, PLC controllers), coordinating between engineering
+        teams, field service, and international clients across Asia-Pacific markets.
+      </p>
+
+    </div>
+
+  </section>
+</div>
+
+<footer>© 2026 Yonge Li</footer>
+
+</body>
+</html>
